@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { useMyHook } from 'use-slicer'
+import { useSlicer } from 'use-slicer'
 
 const App = () => {
-  const example = useMyHook()
+  const example = useSlicer()
   return (
     <div>
       {example}

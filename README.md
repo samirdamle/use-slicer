@@ -15,15 +15,11 @@ npm install --save use-slicer
 ```tsx
 import * as React from 'react'
 
-import { useMyHook } from 'use-slicer'
+import { useSlicer } from 'use-slicer'
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
+    const example = useSlicer()
+    return <div>{example}</div>
 }
 ```
 
